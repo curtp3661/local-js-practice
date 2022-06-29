@@ -1,17 +1,18 @@
 function divideByThree(num) {
     /* Returns the passed in number argument divided by three. */
-    // Your code here
+    return (num / 3)
 };
 
 function averageOfTwo(num1, num2) {
     /* Returns the average of two numbers, num1 and num2. */
-    // Your code here
+    return ((num1 + num2) / 2)
 };
 
 function averageOfFour(num1, num2, num3, num4) {
     /* Takes in four numbers. The function should return the average of all of
     the numbers. */
-    // Your code here
+    let sum = (num1 + num2 + num3 + num4)
+    return (sum / 4)
 };
 
 function doubler(nums) {
@@ -36,7 +37,7 @@ function wordWithinArray(word, arr) {
 };
 
 function echo(str) {
-    /* Takes in a string and returns that string "echo-ized". E.g. 
+    /* Takes in a string and returns that string "echo-ized". E.g.
     echo("Mom!"); // => returns "MOM! ... Mom! ... mom!"
     echo("hey"); // => returns "HEY ... hey ... hey"
     echo("JUMp"); // => returns "JUMP ... JUMp ... jump" */
@@ -84,7 +85,7 @@ function aCounter(word) {
     function to use a `for` loop instead of the `while` loop it is currently
     using. */
 
-    /* 
+    /*
     let index = 0;
     let count = 0;
     while (index < word.length) {
@@ -113,5 +114,5 @@ module.exports = {
     isFive,
     isOdd,
     isSubString,
-    aCounter   
+    aCounter
 }
